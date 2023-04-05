@@ -1,0 +1,33 @@
+.admin-table {
+    display: flex;
+    justify-content: space-between;
+}
+.admin-table button {
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    margin: 14px;
+    text-align: center;
+}
+/* .content > ul.user-Data {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+} */
+.content > ul.user-Data > li {
+    border-top: 1px solid #EEE;
+    width: 80%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content {
+    width: 50%;
+    margin:  0 auto;
+}
+.user-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
