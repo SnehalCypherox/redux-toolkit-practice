@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import DeletUser from '../DeletUser/DeletUser'
 import './UserData.css'
 import { fakeData } from '../../api'
@@ -13,7 +13,13 @@ const UserData = () => {
     const addNewUser = (payload) => {
         console.log(payload);
         dispatch(addUser(payload))
+        // localStorage.setItem('user', JSON.stringify(payload));
     }
+    // console.log("data = ",dispatch(addUser(addNewUser)));
+    // const [data, setData] = useState([]);
+
+    
+
     return (
         <div className='content'>
             <div className="admin-table">
